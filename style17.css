@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+.p1 {
+    background-color: #60C4BF;
+    height: 100vh;
+}
+
+ul a {
+    text-decoration: none;
+    /* removes underline */
+    color: inherit;
+    /* removes blue color */
+    text-decoration: underline;
+}
+
+.homebutton ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+    letter-spacing: +0.6px;
+}
+
+.backbutton ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15.5px;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+    letter-spacing: +0.6px;
+}
+
+.p2 {
+    padding-top: 5px;
+    padding-bottom: 46px;
+    text-align: center;
+}
+
+.p2 img {
+    width: 105px;
+}
+
+span {
+    color:#60C4BF;
+}
+
+.p3 {
+    background-color: white;
+    /* min-height: 250px; */
+    border-radius: 25px;
+    height: 64%;
+    width: 79.5%;
+    display: grid;
+    place-items: center;
+    margin: 0px auto;
+    padding-top: 4%;
+    padding-bottom: 23%;
+    text-align: center;
+}
+
+.p3 h2 {
+    color: #161345;
+    text-align: center;
+    padding-top: 48px;
+    font-size: 42px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 53px;
+}
+
+.custom-select {
+    width: 270px;
+    height: 57px;
+    padding: 9px 22px;
+    border: none;
+    border-radius: 40px;
+    background: #e9e9e9;
+    font-size: 25.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: #1c2a59;
+    outline: none;
+    appearance: none;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/271/271210.png");
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: right 20px center;
+    cursor: pointer;
+}
+.dog img {
+    width: 150px;
+}
+.p5 {
+    /* padding-left: 15%;*/
+    justify-content: center;
+}
+
+.p5 button {
+    font-size: 26px;
+    width: 143px;
+    height: 51px;
+    color:#161345;
+    background-color: #60C4BF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+    border: none;
+}
+
+.p5 {
+    text-align: center;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    /* removes underline */
+    color: inherit;
+    /* removes blue color */
+}

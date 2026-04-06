@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+.p1 {
+    background-color: #60C4BF;
+    height: 100vh;
+}
+
+ul a {
+    text-decoration: none;
+    /* removes underline */
+    color: inherit;
+    /* removes blue color */
+    text-decoration: underline;
+}
+
+.homebutton ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+    letter-spacing: +0.6px;
+}
+
+.backbutton ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15.5px;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+    letter-spacing: +0.6px;
+}
+
+.p2 {
+    padding-top: 5px;
+    padding-bottom: 46px;
+    text-align: center;
+}
+
+.p2 img {
+    width: 105px;
+}
+
+span {
+    color: #FF7F00;
+}
+
+.p3 {
+    background-color: white;
+    /* min-height: 250px; */
+    border-radius: 25px;
+    height: 64%;
+    width: 79.5%;
+    display: grid;
+    place-items: center;
+    margin: 0px auto;
+    padding-top: 4%;
+    padding-bottom: 23%;
+}
+
+.p3 h2 {
+    color: #161345;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 53px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.custom-select {
+    width: 195px;
+    height: 57px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 40px;
+    background: #e9e9e9;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: #1c2a59;
+    outline: none;
+    appearance: none;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/271/271210.png");
+    background-repeat: no-repeat;
+    background-size: 14px;
+    background-position: right 20px center;
+    cursor: pointer;
+}
+
+.p5 {
+    /* padding-left: 15%;*/
+    justify-content: center;
+}
+
+.p5 button {
+    font-size: 26px;
+    width: 143px;
+    height: 52px;
+    color: white;
+    background-color: #161345;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+}
+
+.p5 {
+    text-align: center;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    /* removes underline */
+    color: inherit;
+    /* removes blue color */
+}

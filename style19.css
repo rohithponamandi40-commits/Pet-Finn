@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+.DL {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.DL img {
+    width: 105px;
+}
+
+.DL h1 {
+    padding-top: 47px;
+    color: #161345;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 53px;
+    font-weight: 800;
+    letter-spacing: -0.8px;
+}
+
+.DL p {
+    font-size: 20.5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 10px;
+    font-weight: 500;
+    color: #FF7F00;
+}
+
+.DL1 {
+    padding-left: 33%;
+}
+
+.DL1 label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #161345;
+    /* text-transform: lowercase; */
+    font-size: 17px;
+    letter-spacing: +0.2px;
+    padding-left: 18px;
+    padding-bottom: 4px;
+    font-weight: 500;
+}
+
+.DL2 input {
+    border: none;
+    border-radius: 8px;
+    background-color: #EBEBEB;
+    color: black;
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 530px;
+    height: 55px;
+}
+
+
+.DL3 {
+    padding-left: 33%;
+    padding-top: 28px;
+}
+
+.DL3 label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #161345;
+    /* text-transform: lowercase; */
+    font-size: 17px;
+    letter-spacing: -0.1px;
+    padding-left: 18px;
+    padding-bottom: 4px;
+    font-weight: 500;
+}
+
+.DL4 input {
+    border: none;
+    border-radius: 8px;
+    background-color: #EBEBEB;
+    color: black;
+    padding-left: 15px;
+    font-size: 17px;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 530px;
+    height: 55px;
+}
+
+.DL5 {
+    padding-top: 2.5%;
+    padding-left: 44%;
+
+}
+
+li a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+.imp img {
+    margin-left: 5px;
+    width: 25px;
+}
+
+.DL5 button {
+    margin-right: 12px;
+    font-size: 24px;
+    width: 160px;
+    height: 57px;
+    background-color: #161345;
+    color: #F4F4F6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    border: none;
+    letter-spacing: +0.9px;
+}
+button:hover{
+    background-color:rgb(250, 74, 74);
+}

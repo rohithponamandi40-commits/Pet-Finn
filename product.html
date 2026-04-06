@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-page</title>
+    <link rel="stylesheet" href="style20.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <header class="EC container-fluid text-center">
+        <div class="col-lg-12">
+            <h6 class="EC1 pt-2">
+                FREE SHIPPING ON ALL ORDERS OVER $40
+            </h6>
+        </div>
+    </header>
+    <section class="col-lg-12">
+        <div class="EC2">
+            <nav>
+                <button class="shop-btn rounded-5 text-white">Shop</button>
+                <a href="take-quiz.html"><button class="bg-transparent ms-3">Take Quiz</button></a>
+                <div class="dashboard">
+                    <div class="sidebar">
+                        <ul>
+                            <li><a href="home.html" class="extra"><i class="bi bi-arrow-left-short"></i>Home</a></li>
+                            <li><a href="best-sellers.html">Best Sellers <img src="assets/dash1.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""> </a></li>
+                            <li><a href="supplements.html">Supplements <img src="assets/dash2.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""></a></li>
+                            <li><a href="toppers.html">Toppers <img src="assets/dash3.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""> </a></li>
+                            <li><a href="dental.html">Dental <img src="assets/dash4.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""></a></li>
+                            <li><a href="grooming.html">Grooming <img src="assets/dash5.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""></a></li>
+                            <li><a href="accessories.html">Accessories <img src="assets/dash6.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""></a></li>
+                            <li><a href="bundles.html">Bundles <img src="assets/dash7.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""></a></li>
+                            <li><a href="shop-all.html">Shop All <img src="assets/dash8.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""></a></li>
+
+
+                        </ul>
+                    </div>
+                </div>
+                <script>
+                    $(document).ready(function () {
+
+                        $(".shop-btn, .dashboard").hover(
+                            function () {
+                                $(".dashboard").stop(true, true).fadeIn(200);
+                            },
+                            function () {
+                                $(".dashboard").stop(true, true).fadeOut(200);
+                            }
+                        );
+
+                    });
+                </script>
+                <img src="assets/finn.png" alt="" style="margin-left: 31%;">
+                <a href="doglist.html"> <img src="assets/dog.svg" alt="" style="margin-left: 40%; width: 31px;"></a>
+                <img src="assets/Screenshot 2026-02-12 181226.png" alt="" data-bs-toggle="offcanvas"
+                    data-bs-target="#cartSidebar"
+                    style="width: 37px; margin-left: 16px; margin-bottom: 3px; cursor:pointer;">
+                <div class="offcanvas offcanvas-end cart-sidebar" id="cartSidebar">
+                    <div class="offcanvas-header">
+                        <h5>Your Cart</h5>
+                        <button class="btn-close" data-bs-dismiss="offcanvas">CLOSE</button>
+                    </div>
+                    <div class="offcanvas-body text-center pt-4">
+                        <img src="assets/offcan.svg">
+                        <h4>Your cart is empty!
+                            Fill it with healthy treats.</h4>
+                        <div class="lastly pt-4">
+                            <button class="btn btn btn-warning imp">
+                                <a href="shop-all.html">Shop Now<img src="assets/arrow.svg" alt=""></a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+        <hr>
+    </section>
+    <section class="product-section">
+        <div class="container row">
+            <div class="shampoo col-lg-6 text-center">
+                <img src="assets/shampoo bottle.png" class="product-img" alt="">
+            </div>
+            <div class="shampoo1 col-lg-6 ps-5">
+
+                <p class="product-subtitle">
+                    Super Soothing Oatmeal Shampoo
+                </p>
+
+                <h1 class="product-title">
+                    Fur Hero
+                </h1>
+
+                <div class="rating">
+                    ★★★★★ <span>13 REVIEWS</span>
+                </div>
+
+                <p class="description">
+                    Vet-formulated with colloidal oatmeal, coconut oil, aloe & <br>
+                    vitamin E to gently cleanse—soothing skin, softening coats,<br>
+                    and leaving fur fresh, naturally.
+                </p>
+                <div class="shampoo3">
+
+                    <div class="purchase-option active-option ">
+
+                        <label class="option">
+
+                            <input type="radio" name="buy" checked value="sub">
+
+                            Subscribe & Save 15%
+                        </label>
+                        <span class="price">₹850 <strike>₹1000</strike></span>
+
+                        <div class="shampoo4 pt-3">
+                            <p><img src="assets/tic.svg" alt=""> Shipped every 30 days</p>
+                            <p><img src="assets/tic.svg" alt=""> Change or cancel anytime</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="buy">
+                    <button class="rounded-5 ps-4" data-bs-toggle="offcanvas" data-bs-target="#cartLeftbar">₹850
+                        <strike>₹1000</strike> · Buy Now <img src="assets/arrow.svg" alt=""></button>
+
+                    <div class="custom-cart offcanvas offcanvas-start cart-leftbar" id="cartLeftbar">
+                        <div class="buy1">
+                            <p>Congrats! You've unlocked free shipping!</p>
+
+                        </div>
+                        <div class="buy2 offcanvas-header">
+                            <h5>YOUR CART</h5>
+                            <button class="text-end" data-bs-dismiss="offcanvas">CLOSE <img src="assets/arrow1.svg"
+                                    alt=""></button>
+                        </div>
+                        <div class="buyy pt-3">
+                            <div class="buy3">
+                                <img src="assets/furshort.webp" alt="">
+                            </div>
+                            <div class="buy4">
+
+                                <h1 class="buy5 ps-4 pb-1">
+                                    Fur Hero
+                                </h1>
+                                <div class="ratingg ps-4 pb-3">
+                                    ★★★★★ <span>13 REVIEWS</span>
+                                </div>
+                                <div class=" buy6 ps-4 pb-2">
+                                    15% savings applied!
+                                </div>
+                                <p class=" buy7 ps-4 pb-1">
+                                    Vet-formulated with colloidal oatmeal,<br> coconut oil, aloe &
+                                    vitamin E to gently <br> cleanse— soothing skin,
+                                </p>
+                                <div class="buy8">
+                                    <button class="rounded-5 ps-4">₹850 <strike>₹1000</strike> · Buy Now <img
+                                            src="assets/arrow.svg" alt=""></button>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <hr class="line">
+
+                        <div class="buy9 pt-5">
+                            <u class="text-white">
+                                <h2>RECOMMENDED FOR YOU</h2>
+                            </u>
+                            <a href="doglist.html"><button class="rounded-5">
+                                    Checkout Now <img src="assets/arrow.svg" alt="">
+                                </button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <div class=" shampoo5 container-fluid">
+        <marquee behavior="scroll" direction="left">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+        </marquee>
+    </div>
+
+    <section class="product container-fluid">
+        <div class="product-1">
+            <h1>For The Softest Fur,
+                <br>Naturally
+            </h1>
+        </div>
+        <div class="product-2 text-center">
+            <img src="assets/product.png" alt="">
+            <img src="assets/product2.png" class="ms-4" alt="">
+            <img src="assets/product3.png" class="ms-4" alt="">
+        </div>
+    </section>
+    <section class="EC128 container-fluid">
+        <div class="EC129 col-lg-6">
+            <li><a href="home.html" class="EC130">Home</a></li>
+            <li><a href="shop-all.html" class="EC131">Shop</a></li>
+            <li><a href="aboutpage.html" class="EC131">About</a></li>
+            <li><a href="take-quiz.html" class="EC131">Quiz</a></li>
+        </div>
+        <div class="EC132 col-lg-6">
+            <h2>Join the pack</h2>
+            <div class="EC133 container">
+                <form class="email-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">
+                        Submit <img src="assets/arrow1.svg" style="width: 21px;">
+                    </button>
+                </form>
+            </div>
+            <div class="EC134">
+                <img src="assets/logo-white-full.png" alt="">
+                <p>Finn Wellness, LLC
+                    <br>
+                    100 Crosby St., Ste. 506
+                    <br>
+                    New York, NY 10012
+                </p>
+            </div>
+            <div class="EC135">
+                <p>Questions? Email us at <b>support@petfinn.com</b></p>
+                <br>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>

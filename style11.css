@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+ul a {
+    text-decoration: none;
+    /* removes underline */
+    color: inherit;
+    /* removes blue color */
+    text-decoration: underline;
+}
+
+.homebutton ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #1f1f4b;
+    transition: 0.3s;
+    letter-spacing: +0.6px;
+}
+
+.backbutton ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15.5px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #1f1f4b;
+    transition: 0.3s;
+    letter-spacing: +0.6px;
+}
+
+
+
+.p1 {
+    background-color: #FF7F00;
+    height: 100vh;
+}
+
+.p2 {
+    padding-top:  10px;
+    padding-bottom: 46px;
+    text-align: center;
+}
+
+.p2 img {
+    width: 105px;
+}
+
+.p3 {
+    background-color: white;
+    border-radius: 25px;
+    height: 64%;
+    width: 79.5%; 
+    display: grid;
+    place-items: center;
+    margin: 0px auto;
+    padding-top: 5%;
+    padding-bottom: 23%;
+}
+
+.p3 h2 {
+    color: #161345;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p4 {
+    margin-right: 10%;
+    display: flex;
+}
+.form-text {
+    padding-top: 7px;
+}
+
+.form-text input {
+    padding-top: 28px;
+    border: none;
+    width: 200px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 21.3px;
+    letter-spacing: +0.3px;
+    outline: none;
+}
+
+.form-text input::placeholder {
+    color: #999BA6;
+}
+
+.email-form {
+    padding-top: 10px;
+}
+
+.email-form input {
+    padding-top: 28px;
+    border: none;
+    width: 200px;
+    color: black;
+    font-size: 21.3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: +0.3px;
+    outline: none;
+}
+
+.email-form input::placeholder {
+    color: #999BA6;
+}
+
+.p5 button {
+    font-size: 25.5px;
+    width: 140px;
+    height: 50px;
+    color: white;
+    background-color:#161345;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.1px;
+}
+
+.p5 {
+    text-align: center;
+    padding-top: 27px;
+    list-style: none;
+}
+
+
+li a {
+    text-decoration: none;
+    /* removes underline */
+    color: inherit;
+    /* removes blue color */
+}

@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-Page</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <header class="EC container-fluid text-center">
+        <div class="col-lg-12">
+            <h6 class="shop-btn EC1 pt-2">
+                FREE SHIPPING ON ALL ORDERS OVER $40
+            </h6>
+        </div>
+    </header>
+    <section class="col-lg-12">
+        <div class="EC2">
+            <nav>
+                <button class="shop-btn rounded-5 text-white">Shop</button>
+                <a href="take-quiz.html"><button class="quiz bg-transparent ms-3">Take Quiz</button></a>
+                <div class="dashboard">
+                    <div class="sidebar">
+                        <ul>
+                            <li><a href="home.html" class="extra"><i class="bi bi-arrow-left-short"></i>Home</a></li>
+                            <li><a href="best-sellers.html">Best Sellers <img src="assets/dash1.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""> </a></li>
+                            <li><a href="supplements.html">Supplements <img src="assets/dash2.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""></a></li>
+                            <li><a href="toppers.html">Toppers <img src="assets/dash3.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""> </a></li>
+                            <li><a href="dental.html">Dental <img src="assets/dash4.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""></a></li>
+                            <li><a href="grooming.html">Grooming <img src="assets/dash5.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""></a></li>
+                            <li><a href="accessories.html">Accessories <img src="assets/dash6.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""></a></li>
+                            <li><a href="bundles.html">Bundles <img src="assets/dash7.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""></a></li>
+                            <li><a href="shop-all.html">Shop all <img src="assets/dash8.png" class="rounded-5"
+                                        style="width: 40px; margin-left: 10px; margin-bottom: 10px;" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <script>
+                    $(document).ready(function () {
+
+                        $(".shop-btn").click(function (e) {
+                            e.stopPropagation(); // prevent closing immediately
+                            $(".dashboard").fadeToggle(200);
+                        });
+
+                        $(document).click(function () {
+                            $(".dashboard").fadeOut(200);
+                        });
+
+                        $(".dashboard").click(function (e) {
+                            e.stopPropagation(); // keep open when clicking inside
+                        });
+
+                    });
+                </script>
+                <img src="assets/finn.png" alt="" style="margin-left: 31%;">
+                <a href="doglist.html"> <img src="assets/dog.svg" alt="" style="margin-left: 40%; width: 31px;"></a>
+                <img src="assets/Screenshot 2026-02-12 181226.png" alt="" data-bs-toggle="offcanvas"
+                    data-bs-target="#cartSidebar"
+                    style="width: 37px; margin-left: 16px; margin-bottom: 3px; cursor:pointer;">
+
+                <div class="offcanvas offcanvas-end cart-sidebar" id="cartSidebar">
+
+                    <div class="offcanvas-header">
+                        <h5>Your Cart</h5>
+                        <button class="btn-close" data-bs-dismiss="offcanvas">CLOSE</button>
+                    </div>
+
+                    <div class="offcanvas-body text-center pt-4">
+
+                        <img src="assets/offcan.svg">
+
+                        <h4>Your cart is empty!
+                            Fill it with healthy treats.</h4>
+                        <div class="lastly pt-4">
+                            <button class="btn btn btn-warning imp">
+                                <a href="shop-all.html">Shop Now<img src="assets/arrow.svg" alt=""></a>
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <section class="EC3">
+        <div class="EC4 col-lg-7">
+            <h1>Hi! We love <br>your dog.</h1>
+            <button class="rounded-5 imp">
+                <li><a href="aboutpage.html">About Finn<img src="assets/arrow1.svg" alt=""></a></li>
+            </button>
+            <button class="rounded-5 imp">
+                <li><a href="take-quiz.html">Take Quiz<img src="assets/arrow1.svg" alt=""></a></li>
+            </button>
+            <!-- <button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""></button> -->
+            <!-- <button class="rounded-5">Take Quiz <img src="assets/arrow1.svg" alt=""></button> -->
+            <img src="assets/f2.svg" class="EC5" alt="">
+        </div>
+        <div class="EC6 col-lg-5">
+            <img src="assets/f1.png" alt="">
+        </div>
+    </section>
+    <div class=" EC7 container-fluid">
+        <marquee behavior="scroll" direction="left">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+            <img src="assets/f3.svg" class="EC8" alt="">
+            <img src="assets/f4.svg" class="EC8 pt-1" alt="">
+            <img src="assets/f5.svg" class="EC8" alt="">
+            <img src="assets/f6.svg" class="EC8" alt="">
+        </marquee>
+    </div>
+    <div class="EC9 col-lg-12">
+        <a href="product.html"> <img src="assets/f10.png" alt=""></a>
+    </div>
+
+    <section class="EC10">
+        <h1 class="text-center pe-3">Shop Supplements</h1>
+        <div class="Main col-lg-10">
+            <div class=" EC12 container">
+                <img src="assets/f8.png" alt="">
+
+                <h3 class="EC13">Allergy & Itch</h3>
+                <h4 class="EC14">₹350 <strike class="EC15">₹500</strike></h4>
+                <p class="EC16">Seasonal allergy support – powered by
+                    <br>
+                    Bee Propolis, Colostrum, and Probiotics.
+                </p>
+                <div class="EC17">
+                    <a href="product-1.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                                style="width: 22px;"></button></a>
+                </div>
+            </div>
+            <div class=" EC18 container ps-5">
+                <img src="assets/Screenshot 2026-02-19 154913.png" alt="">
+
+                <h3 class="EC19">Probiotics Aid</h3>
+                <h4 class="EC20">₹750 <strike class="EC21">₹1,000</strike></h4>
+                <p class="EC22">Pre- and probiotic blend for healthy
+                    <br>
+                    poops, and a comfortable dog.
+                </p>
+                <div class="EC23">
+                    <a href="product-2.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                                style="width: 22px;"></button></a>
+                </div>
+            </div>
+            <div class=" EC24 container ps-5">
+                <img src="assets/Screenshot 2026-02-19 154942.png" alt="">
+
+                <h3 class="EC25">Calming Aid</h3>
+                <h4 class="EC26">₹350 <strike class="EC27">₹500</strike></h4>
+                <p class="EC28">Help your pup through stressful times
+                    <br>
+                    the natural way with organic herbs.
+                </p>
+                <div class="EC29">
+                    <a href="product-3.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                                style="width: 22px;"></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="Main1 col-lg-10">
+            <div class=" EC30 container">
+                <img src="assets/Screenshot 2026-02-19 172302.png" alt="">
+
+                <h3 class="EC31 pt-1">Multivitamin </h3>
+                <h4 class="EC32">₹350 <strike class="EC33">₹500</strike></h4>
+                <p class="EC34">A nutritional foundation of essential
+                    <br>
+                    vitamins, healthy Omega-3s.
+                </p>
+                <div class="EC35">
+                    <a href="product-4.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                                style="width: 22px;"></button></a>
+                </div>
+            </div>
+            <div class=" EC36 container ps-5">
+                <img src="assets/Screenshot 2026-02-19 172436.png" alt="">
+
+                <h3 class="EC37">Hip & Joint</h3>
+                <h4 class="EC38">₹999 <strike class="EC39">₹1,999</strike></h4>
+                <p class="EC40">The ultimate trio for joint support and tissue
+                    <br>
+                    repair — Glucosamine, Chondroitin & MSM
+                </p>
+                <div class="EC41">
+                    <a href="product-5.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                                style="width: 22px;"></button></a>
+                </div>
+            </div>
+            <div class=" EC42 container ps-5">
+                <img src="assets/Screenshot 2026-02-19 172456.png" alt="">
+
+                <h3 class="EC43">Skin & Coat</h3>
+                <h4 class="EC44">₹849 <strike class="EC45">₹999</strike></h4>
+                <p class="EC46">Help your pup through stressful times
+                    <br>
+                    shiny coat with Wild Alaskan Salmon oil.
+                </p>
+                <div class="EC47">
+                    <a href="product-6.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                                style="width: 22px;"></button></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="Building row container-fluid">
+        <div class="E48 col-lg-5">
+            <h1 class="E50">We’re Certified
+                Plastic-
+                <br>
+                Negative
+            </h1>
+            <img src="assets/f7.svg" class="pt-4" alt="">
+            <h4 class="E51 pt-4">Discover how we're striving to make the world a better
+                <br>
+                place for future pups through our sustainability initiatives.
+            </h4>
+            <div class="EC52 rounded-5 mt-5">
+                <a href="product-19.html"><button class="rounded-5">Learn more <img src="assets/arrow.svg" alt="">
+                    </button></a>
+            </div>
+        </div>
+        <div class="E49 col-lg-6">
+            <img src="assets/green-tin (1).png" alt="">
+        </div>
+
+    </section>
+
+    <section class="EC54 container-fluid">
+        <h1 class="text-center pe-3">Shop Best Sellers</h1>
+    </section>
+    <div class="Main col-lg-10">
+        <div class=" EC55 container">
+            <img src="assets/Screenshot 2026-02-20 170658.png" alt="">
+
+            <h3 class="EC56">Comfy Pup Bundle</h3>
+            <h4 class="EC57">₹550 <strike class="EC58">₹800</strike></h4>
+            <p class="EC59">This duo helps maintain normal histamine levels
+                <br class="text-center">
+                and digestive balance—two keys to a happy.
+            </p>
+            <div class="EC60">
+                <a href="product-7.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                            style="width: 22px;"></button></a>
+            </div>
+        </div>
+        <div class=" EC61 container ps-5">
+            <img src="assets/Screenshot 2026-02-20 170728.png" alt="">
+
+            <h3 class="EC62">
+
+                Pumpkin Plus </h3>
+            <h4 class="EC63">₹750 <strike class="EC64">₹900</strike></h4>
+            <p class="EC65">The belly’s best friend—helps
+                <br>
+                support digestive health and regularity.
+            </p>
+            <div class="EC66">
+                <a href="product-8.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                            style="width: 22px;"></button></a>
+            </div>
+        </div>
+        <div class=" EC67 container ps-5">
+            <img src="assets/Screenshot 2026-02-20 170757.png" alt="">
+
+            <h3 class="EC68">Paw Hero</h3>
+            <h4 class="EC69">₹850 <strike class="EC70">₹999</strike></h4>
+            <p class="EC71">Powered by plant-based ingredients, our
+                <br>
+                all-weather superbalm heroically protects.
+            </p>
+            <div class="EC72">
+                <a href="product-9.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                            style="width: 22px;"></button></a>
+            </div>
+        </div>
+    </div>
+
+    <section class="EC73 container-fluid">
+        <div class="EC74 col-lg-11">
+            <div class="card rounded-4 text-center border-0">
+                <h1>Fetch the Right Solution</h1>
+                <div class="EC76 card-img">
+                    <img src="assets/f11.svg" alt="">
+                    <div class="card-text pt-3">
+                        <p>Tell us a bit about your dog and get tailor-
+                            <br>
+                            made supplement recommendations based
+                            <br> on factors
+                            like age, breed, diet, and history.
+                        </p>
+                        <div class="EC75 text-center ps-5 pt-4">
+                           <a href="take-quiz.html"> <button class="rounded-5">Take Quiz <img src="assets/arrow1.svg" alt=""> </button></a>
+
+                        </div>
+                    </div>
+                    <div class="EC77">
+                        <img src="assets/f12.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="EC78 container-fluid">
+        <h1 class="text-center pe-3 pt-3">Save on Bundles</h1>
+        <div class="Main col-lg-10">
+            <div class=" EC79 container">
+                <img src="assets/Screenshot 2026-02-24 200748.png" alt="">
+
+                <h3 class="EC80">Body Heroes</h3>
+                <h4 class="EC81">₹350 <strike class="EC82">₹500</strike></h4>
+                <p class="EC83">Everything your dog needs for sensitive skin,
+                    <br class="text-center">
+                    dry paws, and bath time—without the perfumes.
+                </p>
+                <div class="EC84">
+                    <a href="product-10.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                                style="width: 22px;"></button></a>
+                </div>
+            </div>
+            <div class=" EC85 container ps-5">
+                <img src="assets/Screenshot 2026-02-24 200815.png" alt="">
+
+                <h3 class="EC86">
+
+                    Chill Pup</h3>
+                <h4 class="EC87">₹1,500 <strike class="EC88">₹3,000</strike></h4>
+                <p class="EC89">Support your pup through stressful moments
+                    <br>
+                    with Calming Aid + daily Multivitamin.
+                </p>
+                <div class="EC90">
+                    <a href="product-11.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                                style="width: 22px;"></button></a>
+                </div>
+            </div>
+            <div class=" EC91 container ps-5">
+                <img src="assets/Screenshot 2026-02-24 200839.png" alt="">
+
+                <h3 class="EC92">Pretty Pup</h3>
+                <h4 class="EC93">₹1,500 <strike class="EC94">₹3,000</strike></h4>
+                <p class="EC95">Treat your pooch to a luxurious coat
+                    <br>
+                    with daily Skin & Coat + Multivitamin.
+                </p>
+                <div class="EC96">
+                    <a href="product-12.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                                style="width: 22px;"></button></a>
+                </div>
+            </div>
+        </div>
+        <div class="Main3 col-lg-10 ">
+            <div class=" EC97 container">
+                <img src="assets/Screenshot 2026-02-24 200853.png" alt="">
+
+                <h3 class="EC98">Active Pup</h3>
+                <h4 class="EC99">₹999 <strike class="EC100">₹1,999</strike></h4>
+                <p class="EC101">Nurture joint mobility and tissue repair with
+                    <br class="text-center">
+                    daily Hip & Joint + Multivitamin / Probiotic.
+                </p>
+                <div class="EC102">
+                    <a href="product-13.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                                style="width: 22px;"></button></a>
+                </div>
+            </div>
+            <div class=" EC103 container ps-5">
+                <img src="assets/Screenshot 2026-02-24 200914.png" alt="">
+
+                <h3 class="EC104">
+
+                    Starter Bundle </h3>
+                <h4 class="EC105">₹2,000 <strike class="EC106">₹4,000</strike></h4>
+                <p class="EC107">For the dog that deserves it all – Calming Aid,
+                    <br>
+                    Digestive Probiotics + daily Multivitamin.
+                </p>
+                <div class="EC108">
+                    <a href="product-14.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                                style="width: 22px;"></button></a>
+                </div>
+            </div>
+            <div class=" EC109 container ps-5">
+                <img src="assets/Screenshot 2026-02-24 200932.png" alt="">
+
+                <h3 class="EC110">Comfy Pup Bundle</h3>
+                <h4 class="EC111">₹950 <strike class="EC112">₹1,500</strike></h4>
+                <p class="EC113">Support for itching, seasonal allergies and
+                    <br>
+                    immunity with Probiotics + Allergy & Itch.
+                </p>
+                <div class="EC114">
+                    <a href="product-15.html"><button class="rounded-5">Shop Now <img src="assets/arrow1.svg" alt=""
+                                style="width: 22px;"></button></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="EC115 container-fluid">
+        <div class="EC116">
+            <h1 class="text-center pt-3 pb-3">THE FINN WAY</h1>
+            <br>
+            <br>
+            <img src="assets/finn-1.jpg" alt="">
+
+            <div class="Main4 row">
+                <div class="EC117 col-lg-5 pe-5">
+                    <h1 class="pb-3">The Finn Formula</h1>
+                    <p>Finding the right pup-care solution can feel trickier than teaching your dog to moon-walk,
+                        juggle,
+                        and file taxes at once. Finn makes it easy—pairing rock-solid science with drool-worthy natural
+                        ingredients so your best friend can live large and wag longer.</p>
+                </div>
+                <div class="EC118 col-lg-5 ps-5">
+                    <h1 class="pb-3">Only the Good Stuff</h1>
+                    <p>We chase down premium, proven ingredients as eagerly as your dog chases the ball. Each one earns
+                        its
+                        spot through rigorous vet scrutiny and a strict no-junk policy—zero artificials, zero fillers,
+                        100 %
+                        paws-itive purpose.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Main5 container-fluid">
+        <h1 class="text-center pe-3 pt-3">Loved by Pets,
+            <br>
+            Endorsed by Vets
+        </h1>
+        <div class="row">
+            <div class="EC120 col-lg-5">
+                <img src="assets/person1.png" alt="">
+            </div>
+            <div class="EC121 col-lg-5 pt-5">
+                <p>
+                    "Finn has evolved with the times, many
+                    <br>products are outdated these days and
+                    <br>Finn has a great,
+                    fresh
+                    approach to the
+                    <br>pet supplement world.”
+                </p>
+                <h6 class="EC122 ps-4 pt-4">DR. LAURA ROBINSON, DVM</h6>
+                <div class="EC123 ps-3 pt-5">
+                    <img src="assets/person 2.png" class="me-2 text-bg-light rounded-3" alt="">
+                    <img src="assets/person4.png" class="me-2" alt="">
+                    <img src="assets/person3.png" alt=""><img src="assets/arrow1.svg"
+                        style="width: 21px; margin-left: 27px;">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="Main6">
+        <h1 class="text-center pt-3 pb-5">Worth Barking About
+        </h1>
+        <div class="Main7">
+            <div class="EC125 col-lg-6">
+                <img src="assets/worth-barking.jpg" alt="">
+            </div>
+            <div class="EC126 col-lg-5">
+                <img src="assets/graph.png" alt="">
+                DESIREE B.
+                <p class="EC127">"We’ve been giving Ruthy the Hip & Joint supplement and she’s running up and down the
+                    stairs again!
+                    She’s 8 years old and I’ve never seen her this active!”</p>
+
+                <img src="assets/graph.png" alt="">
+                DEV R.
+                <p class="EC127">"Duke always gets scared and jumpy whenever he knows we’re going in the car, but Finn’s
+                    Calming Aid chews have definitely helped to chill him out and we can finally get on the road again
+                    with ease! Finally!!”</p>
+
+                <img src="assets/graph.png" alt="">
+                CALEB P.
+                <p class="EC127">"I’ve been looking for chews to give to Nala without any nasty fillers or bad
+                    ingredients, and I’m so happy I found Finn! They show up at our doorstep every month, and she
+                    gobbles them down!”</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="EC128 container-fluid">
+        <div class="EC129 col-lg-6">
+            <li><a href="home.html" class="EC130">Home</a></li>
+            <li><a href="shop-all.html" class="EC131">Shop</a></li>
+            <li><a href="aboutpage.html" class="EC131">About</a></li>
+            <li><a href="take-quiz.html" class="EC131">Quiz</a></li>
+        </div>
+        <div class="EC132 col-lg-6">
+            <h2>Join the pack</h2>
+            <div class="EC133 container">
+                <form class="email-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">
+                        Submit <img src="assets/arrow1.svg" style="width: 21px;">
+                    </button>
+                </form>
+            </div>
+            <div class="EC134">
+                <img src="assets/logo-white-full.png" alt="">
+                <p>Finn Wellness, LLC
+                    <br>
+                    100 Crosby St., Ste. 506
+                    <br>
+                    New York, NY 10012
+                </p>
+            </div>
+            <div class="EC135">
+                <p>Questions? Email us at <b>support@petfinn.com</b></p>
+                <br>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,391 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.EC {
+    height: 32px;
+    background-color: #161345;
+    color: white;
+    text-align: center;
+    /* position: sticky;
+    top: 0;
+    z-index: 0; */
+}
+
+.EC1 {
+    /* position: sticky;
+    top: 0;
+    z-index: 0; */
+    font-size: 13.6px;
+    font-weight: bold;
+    letter-spacing: +0.8px;
+}
+
+.EC2 {
+    padding-top: 8px;
+    padding-left: 30px;
+    text-align: start;
+}
+
+.EC2 button {
+    background-color: #161345;
+    color: black;
+    width: 100px;
+    height: 35px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: +0.5px;
+
+}
+
+/* Sidebar */
+.dashboard {
+    width: 290px;
+    height: 652px;
+    background: #F9F9F9;
+    position: absolute;
+    left: 0;
+    padding-left: 45px;
+    padding-top: 5px;
+    display: none;
+    /* hidden by default */
+}
+
+ul a {
+    text-decoration: none;
+    /* removes underline */
+    color: inherit;
+    /* removes blue color */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 550;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: #1f1f4b;
+    transition: 0.3s;
+}
+
+.sidebar li:hover {
+    color: #FF7F00;
+}
+
+.extra {
+    text-decoration: underline;
+    /* color: #FF7F00; */
+    font-size: 16px;
+    /* margin-left: 190px; */
+    margin-bottom: 0px;
+}
+
+.extra1 {
+    color: #FF7F00;
+}
+
+ul li {
+    margin-bottom: 24px;
+}
+
+.EC2 img {
+    width: 80px;
+}
+
+.EC6 img {
+    width: 100%;
+    height: 84vh;
+
+}
+
+.EC7 {
+    background-color: rgb(208, 231, 240);
+    height: 100px;
+    display: flex;
+    padding-top: 30px;
+}
+
+.EC8 {
+    padding-right: 60px;
+}
+
+
+.EC54 {
+    padding-top: 50px;
+    height: 100%;
+}
+
+.EC54 h1 {
+    font-size: 125px;
+    font-family: "Assistant", sans-serif;
+    font-weight: 500;
+    letter-spacing: +0.3px;
+}
+
+.EC10 {
+    padding-top: 50px;
+    height: 100%;
+}
+
+.EC10 h1 {
+    font-size: 135px;
+    font-family: "Assistant", sans-serif;
+    font-weight: 500;
+    letter-spacing: +0.3px;
+}
+
+.EC12 {
+    margin-left: 10%;
+}
+
+.EC61 img {
+    /* height: 100%; */
+
+    width: 99%;
+}
+
+.EC62 {
+    padding-top: 5px;
+    padding-left: 70px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.EC63 {
+    font-size: 28px;
+    padding-top: 1px;
+    color: #FF7F00;
+    padding-left: 100px;
+}
+
+.EC64 {
+    color: #919191;
+    padding-left: 2px;
+    font-size: 14px;
+}
+
+.EC65 {
+    font-weight: 550;
+    padding-top: 3px;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #919191;
+}
+
+.EC17 {
+    padding-left: 40px;
+}
+
+.EC17 button {
+    padding-top: 4px;
+    font-size: 22px;
+    width: 210px;
+    height: 55px;
+    background-color: #161345;
+    color: white;
+    font-family: "Assistant", sans-serif;
+    font-weight: 500;
+    border: none;
+    letter-spacing: +0.5px;
+}
+
+.EC85 img {
+    /* height: 100%; */
+    width: 98.5%;
+}
+
+.EC86 {
+    padding-top: 3px;
+    padding-left: 55px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.EC87 {
+    font-size: 28px;
+    padding-top: 1px;
+    color: #FF7F00;
+    padding-left: 100px;
+}
+
+.EC88 {
+    color: #919191;
+    padding-left: 2px;
+    font-size: 14px;
+}
+
+.EC89 {
+    font-weight: 550;
+    padding-top: 3px;
+    padding-left: 40px;
+    font-size: 14px;
+    color: #919191;
+}
+
+.EC23 {
+    padding-left: 45px;
+}
+
+.EC23 button {
+    padding-top: 4px;
+    font-size: 22px;
+    width: 210px;
+    height: 55px;
+    background-color: #161345;
+    color: white;
+    font-family: "Assistant", sans-serif;
+    font-weight: 500;
+    border: none;
+    letter-spacing: +0.5px;
+}
+
+.Main {
+    padding-top: 35px;
+    margin-left: 24%;
+    display: flex;
+}
+
+
+.bs1 {
+    padding-top: 80px;
+}
+
+.bs2 img {
+    width: 100%;
+
+}
+
+.EC128 {
+    background-color: #161345;
+    min-height: 90vh;
+    display: flex;
+}
+
+
+.EC129 {
+    /* text-align: center; */
+    padding-top: 10%;
+    padding-left: 25%;
+
+}
+
+.EC131 {
+    font-size: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.EC130 {
+    color: #FF7F00;
+    font-size: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+
+}
+
+.EC131:hover {
+    color: #FF7F00;
+
+}
+
+.EC132 {
+    padding-top: 10.5%;
+}
+
+.EC132 h2 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: +0.1px;
+}
+
+
+
+.email-form {
+    padding-top: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.email-form input {
+    width: 40%;
+    padding-top: 7px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+
+.email-form input::placeholder {
+    color: #bdbdbd;
+}
+
+.email-form button {
+    margin-left: 17px;
+    padding: 8px 23px;
+    border: 1px solid white;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.email-form button:hover {
+    background: white;
+    color: #1e1b4b;
+}
+
+.EC134 {
+    padding-top: 40px;
+}
+
+.EC134 img {
+    width: 420px;
+}
+
+.EC134 p {
+    padding-top: 50px;
+    font-size: 13.5px;
+    color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-weight: 500;
+    letter-spacing: +0.1px;
+    line-height: 25px;
+
+}
+
+.EC135 {
+    padding-top: 5px;
+
+}
+
+.EC135 p {
+    font-size: 14.5px;
+    color: white;
+    font-weight: 500;
+}
+
+b {
+    color: #FF7F00;
+}
+
+li a {
+    text-decoration: none;
+    /* removes underline */
+    color: inherit;
+    /* removes blue color */
+}
